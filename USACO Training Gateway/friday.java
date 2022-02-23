@@ -21,7 +21,6 @@ public class friday {
 			int day = 1;
 			int[] array1 = new int[] {0,0,0,0,0,0,0};
 			
-			
 			for(int i = 0; i < year; i++) {							
 				
 				array1[(day+12)%7]++;//january
@@ -63,9 +62,6 @@ public class friday {
 				System.out.println(Arrays.toString(array1));
 			}
 			
-			
-			
-			
 			int[] array2 = new int[] {0,0,0,0,0,0,0};
 			int[] index = new int[] {1,2,3,4,5,6,0};
 			int[] temp = new int[array1.length];
@@ -89,7 +85,6 @@ public class friday {
 			}
 			
 			out.close();
-
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
