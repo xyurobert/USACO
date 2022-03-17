@@ -3,6 +3,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+// 2011 December Bronze Division Problem 1
+
 public class haybales {
 	
 	public static int findMinNumber(ArrayList<Integer> s) {
