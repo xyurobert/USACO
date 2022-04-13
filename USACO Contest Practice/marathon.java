@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
+//2014 December Contest Bronze Problem 1
+
 public class marathon {
 	
 	public static void main(String args[]) throws IOException{
